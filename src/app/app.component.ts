@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'angular-showcase-app';
+  title = 'ShowCase App';
+  isSidebarOpen = true;
+  userInfo = { name: 'John Doe', role: 'Admin' };
 }

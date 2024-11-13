@@ -1,0 +1,31 @@
+@import '../../../theme/user.scss';
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+    background-color: $primary-color;
+    color: $text-color;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+
+    &:disabled {
+        background-color: $disabled-color;
+        color: $disabled-text-color;
+        cursor: not-allowed;
+        box-shadow: none;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5);
+    }
+}

@@ -1,0 +1,22 @@
+<div class="sidebar" [class.open]="isOpen">
+    <div class="d-flex align-items-center">
+        <i class="bi bi-person-circle" style="font-size: 2rem; margin-right: 10px;"></i>
+        <div>
+            <strong>{{ user?.name }}</strong>
+            <p class="m-0">{{ user?.role }}</p>
+        </div>
+    </div>
+    <hr>
+    <nav>
+        <ul>
+            <ng-container *ngFor="let item of sideMenuItems">
+                <li *ngIf="item.visible">
+                    <a [routerLink]="item.routerLink">
+                        <i [class]="item.icon"></i>
+                        {{ item.label }}
+                    </a>
+                </li>
+            </ng-container>
+        </ul>
+    </nav>
+</div>

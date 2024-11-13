@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// Small screens (mobile)
+@media (max-width: 600px) {
+    .content {
+        padding: 10px;
+    }
+}
+
+// Medium screens (tablet)
+@media (min-width: 600px) and (max-width: 960px) {
+    .content {
+        padding: 20px;
+    }
+}
+
+// Large screens (desktop)
+@media (min-width: 960px) {
+    .content {
+        padding: 40px;
+    }
+}

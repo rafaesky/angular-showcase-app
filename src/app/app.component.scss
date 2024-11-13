@@ -1,0 +1,30 @@
+.layout {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.main-page {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.main-content {
+    margin: 1rem .4rem 1rem 1rem;
+    border-width: 1px 0;
+    width: 100%;
+    overflow-y: auto;
+    transition: margin-left 0.3s ease;
+}

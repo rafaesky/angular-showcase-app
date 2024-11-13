@@ -1,0 +1,25 @@
+@import '../../theme/user.scss';
+
+header {
+    background-color: $header-bg-color;
+    color: $header-text-color;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.d-flex.align-items-center i {
+    margin-right: 10px;
+}
+
+.d-flex.align-items-center span {
+    cursor: pointer;
+}
