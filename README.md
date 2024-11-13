@@ -1,4 +1,4 @@
-# Project Name
+# Angular ShowCase App
 
 ## Overview
 
