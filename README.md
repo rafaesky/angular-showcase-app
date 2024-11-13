@@ -1,27 +1,49 @@
-# AngularShowcaseApp
+# Project Name
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+## Overview
 
-## Development server
+This project is built using Angular and provides [brief description of the project, e.g., a dashboard for managing tasks, a simple to-do application, etc.]. It integrates a mock server to simulate API calls for development purposes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies Used
 
-## Code scaffolding
+- Angular (version 17)
+- TypeScript
+- SCSS
+- Mock API server (e.g., json-server or any mock API library)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Prerequisites
 
-## Build
+Before running the application, make sure you have the following installed on your machine:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [Angular CLI](https://angular.io/cli) (install with `npm install -g @angular/cli`)
+- [npm](https://www.npmjs.com/)
 
-## Running unit tests
+## Setting Up the Project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Clone the repository:**
 
-## Running end-to-end tests
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+2. **Install dependencies:**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   npm install
+
+### Running the Project
+To run the Angular application and the mock server, follow these steps:
+
+1. **Start the Mock API Server**
+   ```bash
+   npm run mock
+
+2. ** Start the Angular Development Server**
+In a separate terminal, run the Angular application with:
+   ```bash
+   ng serve
+
+The application will now be running at http://localhost:4200/. You can open this URL in your browser to view the application.
+
